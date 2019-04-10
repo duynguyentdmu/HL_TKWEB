@@ -1,0 +1,6 @@
+
+sheet.css:
+.compact{
+	ul {list-style:inside;}
+}
+ul {list-style:outside; color: red; }
