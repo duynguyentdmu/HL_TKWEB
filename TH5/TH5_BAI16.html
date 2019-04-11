@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		.dropbtn{
+			background-color: #4CAF50;
+			color: white;
+			padding: 16 px;
+			font-size: 16 px;
+			border: none;
+			cursor: pointer; 
+		} 
+		.dropdown{
+			position: relative;
+			display: inline-block;
+		}
+		.dropdown-content{
+			display: none;
+			position: absolute;
+			background-color: #f9f9f9;
+			width: 160 px;
+			box-shadow: 0 px 8 px 16 px 0 px rgba(0,0,0,0.2);
+			padding: 12 px 16 px;
+			z-index: 1;
+		}
+		.dropdown-content a{
+			color: black;
+			padding: 12 px 16 px;
+			text-decoration: none;
+			display: block;
+		}
+		.dropdown-content a:hover {
+			background-color: #f1f1f1
+		}
+		.dropdown:hover .dropbtn{
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<h2>dropdown menu</h2>
+	<p>Move the mouse over the button  to open the dropdown menu</p>
+
+	<div class="dropdown">
+	<button class="dropbtn">Dropdown</button> 
+	<div class="dropdown-content">
+	<a href="#">Link 1</a>
+	<a href="#">Link 2</a>
+	<a href="#">Link 3</a>
+	</div>
+	</div>
+
+
+	<p>Note:<strong>we use href ="#" for test links .....</strong></p>
+</body>
+</html>

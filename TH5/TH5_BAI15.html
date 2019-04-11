@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		.dropdown{
+			position: relative;
+			display: inline-block;
+		}
+		.dropdown-content{
+			display: none;
+			position: absolute;
+			background-color: #f9f9f9;
+			width: 160 px;
+			box-shadow: 0 px 8 px 16 px 0 px rgba(0,0,0,0.2);
+			padding: 12 px 16 px;
+			z-index: 1;
+		}
+
+		.dropdown:hover .dropdown-content{
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<h2>hoverable dropdown</h2>
+	<p>Move the mouse over the text below to open the dropdown content </p>
+	<div class="dropdown">
+		<span>mouse over me </span>
+		<div class="dropdown-content">
+			<p>Hello world!</p>
+		</div>
+		
+	</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+ul 
+	{ 
+			list-style-type:none;margin: 0 ;padding: 0;  
+			width:200 px;
+			background-color: #f1f1f1;
+			border: 1 px solid #555;
+	}
+	li a
+	{ 
+		padding: 8 px 16 xpx;
+		text-decoration: none;
+		text-align: center;
+		border-bottom: 1 px solid #555;
+	}
+
+		li a.active{
+			background-color: #4CAF50;
+			color: white;
+		}
+
+		li a:hover:not(.active){
+			background-color: #555;
+			color: 
+		}
+		li:last-chid{
+			border-bottom: none; 
+		}

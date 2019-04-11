@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" http-equiv="Content-Type" content="text/html" >
+	<title>Document</title>
+	<style type="text/css">
+		.relative{
+			height: 300 px;
+			width: 300 px;
+			margin: 100 px auto;
+			background:blue;
+			position: relative;
+		}
+		.absolute{
+			position: absolute;
+			height: 40 px;
+			width: 40 px;
+		}
+		.red{
+			top: 200 px;
+			left: 100 px;
+			background:red;
+
+		}
+		.yellow{
+			top: 100 px;
+			left: 200 px;
+			background:yellow;
+		}
+		.white{
+			top: 150 px;
+			left: 250 px;
+			background:white;
+		}
+	</style>
+</head>
+<body>
+	<div class="relative">
+		<div class="absolute red">red</div><br>
+		<div class="absolute yellow">yellow</div><br>
+		<div class="absolute white">white</div><br>
+	</div>
+</body>
+</html>
